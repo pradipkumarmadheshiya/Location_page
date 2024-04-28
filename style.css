@@ -58,4 +58,11 @@ button{
     height: 108px;
     border: 1px solid #FFFFFF;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#location  .fa-solid{
+    font-size: 39px;
+    color: #FFFFFF;
 }
