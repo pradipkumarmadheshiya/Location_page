@@ -120,6 +120,7 @@ button{
 .info-location{
     margin-top: 36px;
     display: flex;
+
 }
 .call{
     display: flex;
@@ -150,7 +151,74 @@ button{
     font-size: 45px;
     border-radius: 0;
 }
-
 .right p{
     margin-left: 22px;
+}
+.info-location p{
+    font-family: DM Sans;
+    color: rgb(123, 123, 123);
+}
+.call p{
+    font-size: 20px;
+    font-family: DM Sans;
+    display: flex;
+    align-items: center;
+}
+.message p{
+    font-family: DM Sans;
+    display: flex;
+    align-items: center;
+}
+.info-icons{
+    font-size: 19px;
+    margin-top: 54px;
+    display: grid;
+    grid-template-columns: repeat(3, 42px);
+    gap: 10px;
+}
+.info-icons i{
+    padding: 12px;
+    background-color: #434CCC;
+    border-radius: 5px;
+}
+.info-icons a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.info-icons i:first-child{
+    padding: 12px 15px;
+}
+#footer .container{
+    margin-top: 79px;
+    background-color: rgb(255, 223, 105);
+}
+#footer h5{
+    padding: 79px 135px;
+    font-family: DM Sans;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#footer .box{
+    display: flex;
+    margin: 0 135px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.box h2{
+    font-size: 56px;
+}
+.subscribe{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 53px;
+}
+#footer .btn{
+    margin-left: 30px;
+}
+.subscribe input{
+    width: 350px;
+    font-family: DM Sans;
+    padding-left: 10px;
+    border-radius: 5px;
 }
